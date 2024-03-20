@@ -203,3 +203,210 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
+
+.workBx {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.workBx .brand {
+  position: relative;
+  background: #4ed4dd;
+  min-height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workBx .brand:hover {
+  background: #000;
+}
+
+.workBx .brand a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.workBx .brand:hover a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.teamBx {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.teamBx .member {
+  position: relative;
+  background: #000;
+  min-height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamBx .member .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.teamBx .member .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teamBx .member .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  transition: 0.2s;
+  opacity: 0;
+}
+
+.teamBx .member:hover .details{
+  opacity: 1;
+
+}
+.teamBx .member .details h2 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.teamBx .member .details h2 span {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.contact {
+  background: #4ed4dd;
+}
+
+.contact h3,
+.contact p {
+  color: #000;
+}
+
+.contactForm {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.contactForm form {
+  width: 100%;
+}
+
+.contactForm .row100 {
+  display: flex;
+  width: 100%;
+}
+
+.contactForm .row100 .inputBx50 {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.contactForm .row100 .inputBx100 {
+  width: 100%;
+  margin: 0 20px;
+}
+
+.contactForm .row100 input,
+.contactForm .row100 textarea {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+
+.contactForm .row100 textarea {
+  height: 100px;
+}
+
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textarea::placeholder {
+  color: rgba(0, 0, 0, 0.651);
+}
+
+.contactForm .row100 input[type="submit"] {
+  background: #fff;
+  color: #000;
+  max-width: 200px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px; 
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.sci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.sci ul {
+  display: flex;
+}
+
+.sci ul li {
+  list-style: none;
+}
+
+.sci ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.sci ul li a img {
+  
+  max-width: 80px;
+}
+
+.sci ul li a:hover img {
+  opacity: 0.5;
+}
