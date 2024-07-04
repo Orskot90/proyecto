@@ -22,8 +22,8 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 40px 100px;
-z-index: 1000;
+padding: 30px 80px;
+z-index: 900;
 transition: 0.6s;
 
 }
@@ -39,9 +39,9 @@ header .logo {
   font-weight: 700;
   color: #fff;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: 0.6s;
 }
 
@@ -158,13 +158,13 @@ p {
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 60px;
   max-width: 100%;
   margin-top: 40px;
 }
 
 .services .box {
-  width: 300px;
+  width: 600px;
   margin: 0 auto;
   background: #fff;
   padding: 20px;
@@ -215,13 +215,13 @@ p {
 
 .workBx .brand {
   position: relative;
-  background: #4ed4dd;
-  min-height: 300px;
-  width: 250px;
+  background: url(resena.jpeg);
+  min-height: 400px;
+  width: 300px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 .workBx .brand:hover {
@@ -230,7 +230,7 @@ p {
 
 .workBx .brand a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0);
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
