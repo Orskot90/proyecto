@@ -222,6 +222,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .workBx .brand:hover {
@@ -238,6 +239,7 @@ p {
 
 .workBx .brand:hover a {
   color: rgba(255, 255, 255, 1);
+  margin: 10px;
 }
 
 .teamBx {
